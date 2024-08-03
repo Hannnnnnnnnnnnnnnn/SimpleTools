@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+}
+
+:where(.css-dev-only-do-not-override-1pg9a38).ant-tooltip-placement-bottom>.ant-tooltip-arrow {
+    left: 50%;
+    transform: translateX(-50%) translateY(-98%);
+}

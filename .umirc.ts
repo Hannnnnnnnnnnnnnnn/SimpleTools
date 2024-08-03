@@ -1,6 +1,7 @@
 import { defineConfig } from "umi";
 import { theme } from "antd"
 
+
 export default defineConfig({
   routes: [
     { path: "/", name: "home", component: "index" },
@@ -32,7 +33,7 @@ export default defineConfig({
   },
   antd: {
     dark: false,
-    momentPicker: true,
+    momentPicker: false,
     configProvider: {
       theme: {
         algorithm: theme.defaultAlgorithm,
